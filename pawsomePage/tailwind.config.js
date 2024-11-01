@@ -4,8 +4,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sansita': ["Sansita", "sans-serif"], // Substitua "NomeDaFonte" pelo nome da fonte
+        'sansita': ["Sansita", "sans-serif"],
+        'PTsans' :["PT Sans", "sans-serif"]
       },
+      colors: {
+        'azulClaro' : '#d9f2ff'
+      }
     },
   },
   plugins: [],
